@@ -1,0 +1,13 @@
+# Datos originales: pesan cientos de MB y se descargan desde la fuente (ver data/README.md)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+*.csv
+*.zip
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
